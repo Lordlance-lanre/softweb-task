@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+    grid-template-rows: repeat(3, 1fr); /* Three rows with equal height */
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#font-size{
+    font-size: xxx-large;
+}
+small{
+    color: dimgrey;
+    font-size: medium;
+}
+
+.icon-marked{
+    width: 100px;
+    height: 100px;
+}
